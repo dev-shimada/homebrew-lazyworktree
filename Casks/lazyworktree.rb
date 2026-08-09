@@ -4,22 +4,22 @@ cask "lazyworktree" do
 
   on_macos do
     on_intel do
-      sha256 "d56fae01af1332ad0f35a3bbc61bfd72a8873449bbb99b9389987ff235de1a0a"
+      sha256 "4509f70433aea2cff653935229b40bc673da00ac611ce14c38f4f8c39b83eace"
       url "https://github.com/dev-shimada/lazyworktree/releases/download/v#{version}/lazyworktree_Darwin_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "7baa0a42e54bfcb95e540b7747c22fd20a8d835c0f98cf547a7005e23269d730"
+      sha256 "21936e97bd22d593fd7398532d28755788ee593870e8fe0e4475b9e5b270d7b1"
       url "https://github.com/dev-shimada/lazyworktree/releases/download/v#{version}/lazyworktree_Darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "6fe7a457f4f2f727e1dfe74f266c4fb2388732a15c1a99ce1434c036873f8d5b"
+      sha256 "bd0d4d16084ed28d259c75956893f8b09fa0e58eace4ad967606937cf8d5abee"
       url "https://github.com/dev-shimada/lazyworktree/releases/download/v#{version}/lazyworktree_Linux_x86_64.tar.gz"
     end
     on_arm do
-      sha256 "cbe5a84a8526884854fce2f37018e4b713b321ec497b9c3a6aec2b49f3cb4ae4"
+      sha256 "6346fc0a73ef4a4b8b9b02149a521eeffaf9798fda890c7b299923d1489788c8"
       url "https://github.com/dev-shimada/lazyworktree/releases/download/v#{version}/lazyworktree_Linux_arm64.tar.gz"
     end
   end
